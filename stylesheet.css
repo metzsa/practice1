@@ -35,11 +35,7 @@ body {
 
 #prodname {
     font-size: 72px;
-}
-
-.header2 {
-    border: 1px solid #000000;
-    margin: 25px auto;
+    margin: 0;
 }
 
 .hero {
@@ -55,18 +51,24 @@ body {
     flex-direction: column;
     height: 80vh;
     width: 100%;
+    text-shadow: 2px 2px 8px rgba(32, 32, 32, 0.8);
 }
 
-/* .profile {
-    border: 1px solid #000000;
-    margin: 25px auto; 
-} */
-
-/* #profile-banner {
+.hero_about {
+    background-image: url('https://mixedinkey.com/wp-content/uploads/2018/12/Screenshot-2018-12-03-19.54.11.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
+    text-shadow: 2px 2px 8px rgba(32, 32, 32, 0.8);
+}
 
 .library {
     background-color: #000000;
@@ -93,4 +95,22 @@ body {
 
 .title {
     text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.4);
+}
+
+.about {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 25px auto;
+}
+
+.about_subsection {
+    flex: 1 20%;
+    border: 1px solid #000000;
+    padding: 25px;
+}
+
+p {
+    padding: 5px;
 }
