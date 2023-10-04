@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.6s ease;
+}
+
+.tab {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+
+.navbar:hover {
+    background-color: #ffffff;
+    opacity: 0.7;
+  }
+
+.navbar:hover .tab {
+    color: #000000;
+}  
+
+#prodname {
+    font-size: 72px;
+}
+
+.header2 {
+    border: 1px solid #000000;
+    margin: 25px auto;
+}
+
+.hero {
+    background-image: url('https://www.audiomentor.com/wp-content/uploads/2019/01/how-to-make-money-as-a-music-producer.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+}
+
+/* .profile {
+    border: 1px solid #000000;
+    margin: 25px auto; 
+} */
+
+/* #profile-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.library {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 25px auto;
+}
+
+.song {
+    flex: 1 20%;
+    border: 1px solid #000000;
+    padding: 25px;
+}
+
+.artwork {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+}
+
+.title {
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.4);
+}
